@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    /* overflow: ; */
+}
+::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+}
+.container{
+    height: 120vh;
+    background: url(./images/mountain4.png); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+}
+/* .container2{
+    background: url(./images/mountain1.png); 
+    background-size: 50% 100%, cover;
+    background-position: center;
+    position: absolute;
+    z-index: 1;
+} */
+.balloon{
+    height: 40%;
+    width: 40%;
+    background:url(./images/balloon3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    z-index: 2;
+}
+/* .scaleUp{
+    animation: scaleUp 2s forwards infinite;
+}
+@keyframes scaleUp{
+    form{
+        scale: (1, 1);
+    }
+    to{
+        scale: (1.5, 1.5);
+    }
+} */
